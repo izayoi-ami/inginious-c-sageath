@@ -1,6 +1,6 @@
 FROM ingi/inginious-c-default
 LABEL org.inginious.grading.name="sagemath"
-ARG sage=http://ftp.yz.yamagata-u.ac.jp/pub/math/sage/src/sage-7.5.1.tar.gz
+ARG sage=http://ftp.kaist.ac.kr/sage/src/sage-7.5.1.tar.gz
 ARG home=/home/worker
 RUN yum install epel-release -y
 RUN yum install wget aria2 bzip2 -y
