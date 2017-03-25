@@ -11,9 +11,9 @@ Container Settings
 Usage
 ------
 
-#####Run a student script:
+##### Run a student script:
 `run_student sage script`
 
-#####Execute command:
+##### Execute command:
 `sage -c 'command'`
 
